@@ -1,0 +1,25 @@
+
+docker-compose run web django-admin startproject django_graphQl . -- start django project using a web service
+docker-compose up    -- start all containers
+docker-compose build -- to rebuild services
+
+
+# access services container
+
+web           : 
+                django_shell : docker exec -it django_graphql bash
+                # from here you can run all the django commands
+
+postgresDB    : 
+                postgres shell:          docker exec -it postgresDB psql -U postgres
+                change_to_the_exact_db : \c postgres 
+                display_all_the_tables : \d 
+                
+
+superuser : 
+            olawalekareemdev
+            olawalekareemdev@gmail.com
+            saviourjesus11*
+            
+
+
