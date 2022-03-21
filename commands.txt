@@ -16,10 +16,6 @@ postgresDB    :
                 display_all_the_tables : \d 
                 
 
-superuser : 
-            olawalekareemdev
-            olawalekareemdev@gmail.com
-            saviourjesus11*
-            
+
 
 
